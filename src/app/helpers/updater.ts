@@ -1,5 +1,5 @@
 import { app, ipcMain } from 'electron';
-import { autoUpdater } from 'electron-updater';
+const { autoUpdater } = require("electron-updater")
 import * as os from "os";
 
 export default class AppUpdater {
